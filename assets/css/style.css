@@ -169,3 +169,27 @@ body {
   height: 80px;
   border-radius: 50%;
 }
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body ul {
+    flex-grow: 1;
+}
+
+.card-body a.btn {
+    align-self: center;
+    margin-top: auto;
+}
+
