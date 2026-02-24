@@ -61,7 +61,13 @@
                     </li>
                     <li class="nav-item"><a class="nav-link mx-3" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link mx-3" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link mx-3" href="#katalog">Katalog</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-3" href="#katalog" id="katalogDropdown" role="button" data-bs-toggle="dropdown">Katalog</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#datascience">Data Science</a></li>
+                            <li><a class="dropdown-item" href="#businessapps">Business Apps</a></li>
+                        </ul>
+                    </li> 
                     <li class="nav-item"><a class="nav-link mx-3" href="#testimoni">Testimoni</a></li>
                     <li class="nav-item"><a class="nav-link mx-3" href="#contact">Contact</a></li>
                 </ul>
@@ -235,6 +241,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Paket Hemat 1-->
                 <div class="col-lg-4 mb-4 d-flex">
                     <div class="card border-0 rounded-4 shadow-sm h-100 w-100">
@@ -470,12 +477,12 @@
             </div>
         </div>
 
-        <!-- Katalog -->
-        <section id="katalog" class="container text-center py-5">
+        <!-- Katalog Data Science -->
+        <section id="datascience" class="container text-center py-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h3 class="fw-bold lh-2 mb-3">KATALOG APLIKASI</h3>
-                    <p class="lead">Kumpulan aplikasi dan proyek yang telah kami kerjakan, lengkap dengan dokumentasi.</p>
+                    <h3 class="fw-bold lh-2 mb-3">KATALOG APLIKASI DATA SCIENCE</h3>
+                    <p class="lead">Eksplorasi berbagai proyek data science kami, mulai dari analisis data hingga machine learning, lengkap dengan studi kasus, dokumentasi dan hasil implementasi.</p>
                 </div>
             </div>
             
@@ -513,7 +520,6 @@
                     </div>
                 </div>
 
-
                 <!-- Card 2 -->
                 <div class="col-md-4 mb-4 katalog-item">
                     <div class="card shadow-sm rounded-4 h-100">
@@ -546,7 +552,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <!-- Card 3 -->
                 <div class="col-md-4 mb-4 katalog-item">
@@ -581,7 +586,6 @@
                     </div>
                 </div>
 
-                
                 <!-- Card 4 -->
                 <div class="col-md-4 mb-4 katalog-item">
                     <div class="card shadow-sm rounded-4 h-100">
@@ -614,7 +618,6 @@
                         </div>
                     </div>
                 </div>                
-
 
                 <!-- Card 5 -->
                 <div class="col-md-4 mb-4 katalog-item">
@@ -649,7 +652,6 @@
                     </div>
                 </div>                
 
-
                 <!-- Card 6 -->
                 <div class="col-md-4 mb-4 katalog-item">
                     <div class="card shadow-sm rounded-4 h-100">
@@ -683,7 +685,6 @@
                     </div>
                 </div>
                 
-
                 <!-- Card 7 -->
                 <div class="col-md-4 mb-4 katalog-item">
                     <div class="card shadow-sm rounded-4 h-100">
@@ -717,7 +718,6 @@
                     </div>
                 </div>
 
-
                 <!-- Card 8 -->
                 <div class="col-md-4 mb-4 katalog-item">
                     <div class="card shadow-sm rounded-4 h-100">
@@ -749,35 +749,74 @@
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
+
+                <!-- 9 -->
+                <div class="col-md-4 mb-4 katalog-item">
+                    <div class="card shadow-sm rounded-4 h-100">
+                        <img src="assets/img/katalog/app_klasifikasi_tingkat_kemiskinan_indonesia.png" class="card-img-top" alt="App Klasifikasi Tingkat Kemiskinan Indonesia">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Aplikasi Klasifikasi Tingkat Kemiskinan Indonesia</h5>
+                            <p class="card-text flex-grow-1">Aplikasi ini dirancang untuk melakukan klasifikasi tingkat kemiskinan di Indonesia menggunakan algoritma Decision Tree Classifier. Dibangun dengan Python dan antarmuka interaktif Streamlit, aplikasi ini memudahkan pengguna dalam mengunggah data, melakukan preprocessing, melatih model, serta menghasilkan prediksi otomatis apakah suatu wilayah termasuk kategori Miskin atau Tidak Miskin. Untuk demo atau informasi lebih lanjut, silakan hubungi melalui WhatsApp berikut.</p>
+                            <div class="mt-auto d-flex gap-2">
+                                <a href="https://appklasifikasitingkatkemiskinanindonesia-liraajob.streamlit.app/" 
+                                    target="_blank" 
+                                    class="btn btn-success flex-fill d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-rocket-takeoff" style="margin-right: 0.10rem;"></i>
+                                    <span>Demo</span>
+                                </a>
+                                
+                                <a href="assets/pdf/Portofolio_Aplikasi_Klasifikasi_Tingkat_Kemiskinan_Indonesia.pdf" 
+                                    target="_blank" 
+                                    class="btn btn-primary flex-fill d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-file-earmark-text" style="margin-right: 0.10rem;"></i>
+                                    <span>Doc</span>
+                                </a> 
+                                
+                                <a href="https://wa.me/6285830509218?text=Pesan:%20Halo%20saya%20ingin%20mencoba%20%2A%2A%20Aplikasi%20Klasifikasi%20Tingkat%20Kemiskinan%20Indonesia%20%2A%2A%0AEmail:%20Mohon%20isi%20email%20ya%20sebagai%20visitor!!!"
+                                    target="_blank"
+                                    class="btn btn-outline-success flex-fill d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-whatsapp" style="margin-right: 0.10rem;"></i>
+                                    <span>Chat</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Katalog Business Apps -->
+        <section id="businessapps" class="container text-center py-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="fw-bold lh-2 mb-3">KATALOG BUSINESS APPS</h3>
+                    <p class="lead">Beragam aplikasi bisnis berbasis Python dan database relasional PostgreSQL sebagai basis utamanya yang kami bangun untuk membantu efisiensi, produktivitas, dan pengelolaan sistem secara digital (<strong>ON GOING</strong>).</p>
+                </div>
             </div>
         </section>
 
         <!-- Testimoni -->
         <section id="testimoni" class="py-4">
         <div class="container text-center">
-
-            <!-- Judul -->
             <h3 class="fw-bold mb-2">TESTIMONI</h3>
             <p class="text-muted mb-4">Pendapat mereka tentang layanan kami!!!</p>
-
-            <!-- Overall Rating -->
             <div class="mb-5">
-            <h3 class="fw-bold mb-1">5.0 <small class="text-muted">/ 5.0</small></h3>
-            <div class="text-warning mb-1" style="font-size: 1.5rem;">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-            </div>
-            <p class="text-muted">(Berdasarkan 2 Ulasan)</p>
-            </div>
+            <h3 class="fw-bold mb-1">
+                <span id="overall-rating">0.0</span>
+                <small class="text-muted">/ 5.0</small>
+            </h3>
 
-            <!-- Wrapper Testimoni -->
+            <div id="overall-stars" class="text-warning mb-1" style="font-size: 1.5rem;"></div>
+
+            <p class="text-muted">
+                (Berdasarkan <span id="total-ulasan">0</span> Ulasan)
+            </p>
+
             <div class="testimoni-wrapper">
             <!-- Testimoni 1 -->
-            <div class="testimoni-card">
+            <div class="testimoni-card" data-rating="5">
                 <img src="assets/img/person.svg" class="profile-img mb-3" alt="User 1">
                 <h5 class="mb-2">Ratu</h5>
                 <p class="text-muted">Mahasiswa Teknik Informatika Kampus Bandung</p>
@@ -792,7 +831,7 @@
             </div>
 
             <!-- Testimoni 2 -->
-            <div class="testimoni-card">
+            <div class="testimoni-card" data-rating="4.5">
                 <img src="assets/img/person.svg" class="profile-img mb-3" alt="User 1">
                 <h5 class="mb-2">Nia</h5>
                 <p class="text-muted">Mahasiswa Teknik Informatika Kampus Bandung</p>
@@ -801,7 +840,7 @@
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
                 <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
                 </div>
                 <p class="text-muted">"Pengerjaan cepat hanya membutuhkan waktu kurang lebih 5 hari serta harganya terjangkau untuk kantong mahasiswa. Penjelasan konsep algoritmanya detail dan mudah dipahami."</p>
             </div>
@@ -844,7 +883,7 @@
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h5 class="mb-1">Address</h5>
-                                    <p class="mb-0">East Lampung</p>
+                                    <p class="mb-0">East Lampung/Bandung</p>
                                 </div>
                             </div>
                             <hr class="hr-dotted mt-0">
@@ -868,7 +907,7 @@
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h5 class="mb-1">Email</h5>
-                                    <p class="mb-0 text-break">arjunyudafirwanda@gmail.com</p>
+                                    <p class="mb-0 text-break">liraajob@gmail.com</p>
                                 </div>
                             </div>
                             <hr class="hr-dotted mt-0">
@@ -905,6 +944,43 @@
     <!-- Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-</body>
 
+<script>
+    const testimonials = document.querySelectorAll(".testimoni-card");
+    const overallRatingEl = document.getElementById("overall-rating");
+    const overallStarsEl = document.getElementById("overall-stars");
+    const totalUlasanEl = document.getElementById("total-ulasan");
+
+    let total = 0;
+
+    testimonials.forEach(card => {
+        total += parseFloat(card.dataset.rating);
+    });
+
+    const average = total / testimonials.length;
+    const formattedAverage = average.toFixed(1);
+
+    overallRatingEl.textContent = formattedAverage;
+    totalUlasanEl.textContent = testimonials.length;
+
+    function renderStars(rating) {
+        let starsHTML = "";
+        const fullStars = Math.floor(rating);
+        const hasHalfStar = rating % 1 >= 0.5;
+
+        for (let i = 0; i < fullStars; i++) {
+            starsHTML += '<i class="bi bi-star-fill"></i>';
+        }
+
+        if (hasHalfStar) {
+            starsHTML += '<i class="bi bi-star-half"></i>';
+        }
+
+        overallStarsEl.innerHTML = starsHTML;
+    }
+
+    renderStars(average);
+</script>
+
+</body>
 </html>
